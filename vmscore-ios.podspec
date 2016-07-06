@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "vmscore-ios"
   s.version      = "0.0.1"
-  s.summary      = ""
+  s.summary      = "VMSCoreSDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  TODO
                    DESC
 
   s.homepage     = "https://github.com/themoonlitknight/vmscore-ios"
@@ -73,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/themoonlitknight/vmscore-ios.git", :commit => "874cc9223e486cc3be7368864b3abfda639f8adf" }
+  s.source       = { :git => "https://github.com/themoonlitknight/vmscore-ios.git", :tag => "#{s.version}" }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
