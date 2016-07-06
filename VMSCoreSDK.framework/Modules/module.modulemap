@@ -1,0 +1,6 @@
+framework module VMSCoreSDK {
+  umbrella header "VMSCoreSDK.h"
+
+  export *
+  module * { export * }
+}
